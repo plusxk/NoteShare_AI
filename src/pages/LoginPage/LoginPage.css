@@ -1,0 +1,104 @@
+.loginPage{
+    position:relative;
+    width: 80%;
+    height: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.loginPage__Outer{
+    height: 100%;
+    box-shadow: rgba(60, 60, 60, 0.25) 0px 5px 10px 0px;
+  } 
+
+
+.loginPage__Header{
+  background-color: #fff;
+  padding-top: 1em;
+}
+
+.loginPage__Sider{
+  background-color: #fff;
+}
+
+.loginPage__Sider__md{
+  background-color: #fff;
+  padding-top:15em
+}
+
+.loginPage__Sider img{
+  position: relative;
+  padding: 4em;
+  padding-top: 6em;
+  width: 100%;
+}
+
+.loginPage__Sider__md img{
+  position: relative;
+  
+  width: 100%;
+}
+
+.loginPage__Content{
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 6em;
+}
+.loginPage__Content__md{
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 3em;
+}
+.loginPage__Content__sm{
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.loginPage__Content__Text__Bottom{
+  margin-bottom: 2em;
+}
+
+.loginPage__Form{
+  position: relative;
+  width: 100%;
+}
+
+.loginPage__Content__Form__Text{
+  position: relative;
+  width: 100%;
+  margin-bottom: .1em;
+}
+
+.loginPage__Content__Form__Forgot {
+  float: right;
+  text-decoration: none;
+}
+.loginPage__Content__Form__Forgot__sm {
+  float: left;
+  text-decoration: none;
+}
+
+.loginPage__Button{
+  float: right;
+}
+
+/*
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.Login__Form__Item{
+  margin-top: 10%;
+}*/

@@ -1,0 +1,18 @@
+.outlineTemplate{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.outlineTemplate__Layout{
+    position: absolute;
+    top: 10%;
+    height: 100%;
+    background-color: #FFFFFF;
+    
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}

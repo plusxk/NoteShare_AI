@@ -1,0 +1,83 @@
+.navSearchBar{
+    position: relative;
+    height: 2em;
+    width: 10em;
+    border: 0;
+    border-bottom:1px #999 solid;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2vw;
+}
+
+
+.navSearchBar--selected{
+    transition: .5s;
+    border-bottom:1px #000 solid;
+}
+
+
+.navSearchBar__Input{
+    width: 80%;
+    height: 100%;
+    border: 0;
+}
+
+
+.navSearchBar__Input:focus{
+    outline: none;
+}
+
+.navSearchBar__Button{
+    width: 10%;
+}
+
+.navSearchBar__AdvancedSearch{
+    position: absolute;
+    background-color: #fff;
+    border: thin #eee solid;
+    top: 90%;
+    left: 60%;
+    margin-right: 2em;
+    visibility: collapse;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+}
+
+.navSearchBar__AdvancedSearch--show{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navSearchBar__AdvancedSearch--hidden{
+    visibility: collapse;
+    opacity: 0;
+}
+
+.navSearchBar__AdvancedSearch__Tab{
+    padding-left: 2em;
+    padding-right: 0.3em;
+}
+
+.navSearchBar__AdvancedSearch__Tab__Items{
+    width: 100%;
+}
+
+
+@media (max-width: 650px) {
+    .navSearchBar{
+        border: 0;
+        border-bottom:1px #999 solid;
+        top: 0;
+        transform: none;
+        margin-left: 0;
+    }
+    .navSearchBar__AdvancedSearch{
+        position: fixed;
+        background-color: #fff;
+        border: thin #eee solid;
+        top: 10%;
+        left: 0;
+    }
+    
+}

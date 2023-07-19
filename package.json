@@ -1,0 +1,76 @@
+{
+  "name": "react-grapesjs",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "",
+  "dependencies": {
+    "@ant-design/colors": "^6.0.0",
+    "@artsy/fresnel": "^6.1.0",
+    "@popperjs/core": "^2.9.3",
+    "@toast-ui/react-image-editor": "^3.15.2",
+    "@uiw/react-textarea-code-editor": "^1.4.15",
+    "antd": "^4.20.4",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "devextreme": "21.2.8",
+    "devextreme-react": "21.2.8",
+    "dotenv": "^16.3.1",
+    "downloadjs": "^1.4.7",
+    "grapesjs": "npm:grapesjs-clot@^0.1.160",
+    "grapesjs-blocks-basic": "^0.1.8",
+    "grapesjs-component-countdown": "^0.1.3",
+    "grapesjs-plugin-export": "^1.0.7",
+    "grapesjs-style-bg": "^1.0.5",
+    "grapesjs-style-filter": "^0.1.3",
+    "grapesjs-tooltip": "^0.1.5",
+    "grapesjs-touch": "^0.1.1",
+    "interweave": "^13.0.0",
+    "jquery": "^3.6.0",
+    "js-base64": "^3.7.2",
+    "moment": "^2.29.3",
+    "node-sass": "^7.0.1",
+    "openai": "^3.3.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.1",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.33.0",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^6.3.0",
+    "react-screen-capture": "^1.0.1",
+    "react-scripts": "4.0.3",
+    "react-share": "^4.4.0",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^8.0.2",
+    "save": "^2.5.0",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

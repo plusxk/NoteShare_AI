@@ -1,0 +1,56 @@
+.Coin__Container{
+  position: relative;
+  height: 100%;
+  font-size: .9em;
+}
+
+.Coin__Container .anticon{
+  margin: 0;
+  position: relative;
+}
+
+.Coin__Icon{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+
+}
+
+.Coin__Text{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left:1.5em;
+}
+/*@media screen and (min-width: 1192px) {
+  .Coin__Text{
+    top:1%;
+    margin-left:1.5em;
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px)and (max-width: 1192px) {
+  .Coin__Text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left:1.5em;
+  }
+}
+@media screen and (min-width: 0px)and (max-width: 768px) {
+  .Coin__Text{
+    top:8%;
+    margin-left:1.5em;
+    position: relative;
+  }
+}
+*/
+
+
+
+.Coin__Text p{
+  position: relative;
+  height: 100%;
+  padding-top: 25%;
+}

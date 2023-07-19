@@ -1,0 +1,90 @@
+.ant-dropdown-menu-item{
+    font-size: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.ant-dropdown-menu-item-icon{
+}
+
+.ant-dropdown-trigger{
+    border: none;
+}
+
+.Comment__Input{
+    margin-bottom: 1em;
+}
+
+.Comment__Button{
+    float: right;
+    padding-right: 1.5em;
+    margin-bottom: 1em;
+}
+
+.comment-action {
+    padding-left: 8px;
+    cursor: 'auto';
+  }
+  
+  [class*='-col-rtl'] .comment-action {
+    padding-right: 8px;
+    padding-left: 0;
+  }
+
+.personalPageNoteMenu{
+    text-decoration: none;
+}
+
+.commentFromApplicant{
+    margin: .5em 3em 1em 3em;
+    font-size: large;
+}
+
+.commentFromApplicantComment{
+    position: relative;
+    height: 31vh;
+    overflow-y: auto;
+}
+
+.commentFromApplicantLabel{
+    position: relative;
+    margin-bottom: .5em;
+}
+
+.commentFromApplicantButton{
+    position: relative;
+    float: right;
+    margin-left: .5em;
+}
+
+.ant-popover{
+    z-index: 10000;
+}
+
+.currUserItem{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.userItem{
+    cursor: pointer;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.userItem:hover {
+    background-color: #eee;
+}
+
+.ant-popover-inner{
+    padding: .5em 1em .5em 1em;
+}
+
+.ant-modal-confirm-content{
+    margin: 2em 0 0 0 !important;
+}
+
+.dropdownFunction{
+    width: 100%;
+}

@@ -1,0 +1,98 @@
+.signUpPage{
+    position:relative;
+    width: 80%;
+    height: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.signUpPage__Outer{
+    height: 100%;
+    box-shadow: rgba(60, 60, 60, 0.25) 0px 5px 10px 0px;
+  } 
+
+
+.signUpPage__Header{
+  background-color: #fff;
+  padding-top: 1em;
+}
+
+.signUpPage__Sider{
+  background-color: #fff;
+}
+.signUpPage__Sider__md{
+  background-color: #fff;
+  padding-top:15em;
+}
+
+
+
+.signUpPage__Sider img{
+  position: relative;
+  padding: 4em;
+  padding-top: 6em;
+  width: 100%;
+}
+.signUpPage__Sider__md img{
+  position: relative;
+  
+ 
+  width: 100%;
+}
+.signUpPage__Content{
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 3.5em;
+  padding-left: 1em;
+  padding-right: 6em;
+}
+.signUpPage__Content__md{
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 3.5em;
+  padding-left: 1em;
+  padding-right: 3em;
+}
+
+.signUpPage__Content__sm{
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 3.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.signUpPage__Content__Text__Bottom{
+  margin-bottom: 2em;
+}
+
+.signUpPage__Form{
+  position: relative;
+  width: 100%;
+}
+
+.signUpPage__Content__Form__Text{
+  position: relative;
+  width: 100%;
+  margin-bottom: .1em;
+}
+
+.signUpPage__Content__Form__Forgot {
+  float: right;
+  text-decoration: none;
+}
+
+.signUpPage__Login__Button{
+  float: left;
+    
+}
+
+.signUpPage__Button{
+  float: right;
+}
+
+.signUpPage__Form__Item{
+    margin-bottom: 1em;
+}

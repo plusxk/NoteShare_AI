@@ -1,0 +1,110 @@
+.informationInput{
+    width: 100%;
+}
+
+.informationInput__item{
+    margin-top: 0.3em;
+}
+
+.informationInput__Input{
+    position: relative;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.informationInput__item__Dropdown{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-right: 2%;
+}
+
+.informationInput__InputNumbers{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 0.3em;
+}
+
+.informationInput__InputNumber{
+    width: 10%;
+    bottom: 0;
+    float: left;
+    margin-right: 1em;
+}
+
+.informationInput__InputNumber p{
+    height: 2em;
+}
+
+
+.informationInput__Checkbox{
+    position: relative;
+    float: right;
+    height: 100%;
+    margin-top: 1.5em;
+}
+
+.informationInput__Public{
+    position: relative;
+    float: right;
+    height: 100%;
+    margin-right: 1.8em;
+    margin-top: 1.5em;
+}
+
+@media (max-width: 1024px){
+    .informationInput__InputNumber{
+        width: 48%;
+        bottom: 0;
+        float: left;
+        margin-right: 2%;
+        margin-top: 0.3em;
+    }
+    .informationInput__InputNumber p{
+        height: auto;
+    }
+}
+
+@media (max-width: 650px){
+    .informationInput__Input{
+        width: 100%;
+        margin-right: 0;
+    }
+    .informationInput__item__Dropdown{
+        margin-right: 0;
+    }
+    .informationInput__InputNumber{
+        width: 48%;
+        bottom: 0;
+        float: left;
+        margin-right: 2%;
+        margin-top: 0.3em;
+    }
+    .informationInput__InputNumber p{
+        height: auto;
+    }
+}
+
+@media (max-width: 600px){
+
+    .informationInput__Checkbox{
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 48%;
+        margin-top: .5em;
+        text-align: right;
+    }
+    .informationInput__Public{
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 48%;
+        margin-right: 0em;
+        margin-top: .5em;
+        text-align: right;
+    }
+}

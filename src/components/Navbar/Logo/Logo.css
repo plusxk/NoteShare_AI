@@ -1,0 +1,31 @@
+/*.logo {
+  cursor: pointer;
+  width: 30%;
+  position: absolute;
+  width: 20%;
+  
+  left: 8%;
+  top: 0;
+  margin-top: 0.8em;
+}*/
+/*# sourceMappingURL=Logo.css.map */
+
+.logo {
+  /*width: 20%;*/
+  /*height: 100%;*/
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  margin-left: 4vw;
+}
+
+.logo__Inner{
+  position: relative;
+  display: flex;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo p{
+  margin: 0;
+}

@@ -1,0 +1,182 @@
+.fileManager{
+    position:relative;
+    width: 90%;
+    height: 90vh; 
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+}
+
+.fileManager .ant-layout{
+    position:relative;
+    width: 100%; 
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(60, 60, 60, 0.25) 0px 5px 10px 0px;
+}
+
+.fileManager_Sider{
+    background-color: white;
+    width: 30%;
+    padding: 1em 0;
+    overflow-y: auto;
+}
+
+.fileManager_Buttons{
+    height: 2.5em;
+    padding-left: 1.2em;
+}
+
+.fileManager_Buttons .anticon{
+    cursor: pointer;
+    margin-right: 1em;
+    font-size: large;
+}
+
+.fileManager_Content{
+    background-color: white;
+    width: 70%;
+    padding: 1em;
+    overflow-y: auto;
+}
+
+.fileManage_Folder .ant-list-item, .fileManage_Post .ant-list-item{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.fileManage_List_Item{
+    cursor: pointer;
+    padding-left: 1.5em;
+    padding-right: 1.2em;
+}
+
+.fileManage_List_Item_NoHover{
+    padding-left: 1.2em;
+}
+
+.fileManage_List_Item:hover{
+    cursor: pointer;
+    background-color: #eee;
+    
+}
+
+.fileManage_Folder .anticon{
+    float: right;
+    font-size: 1.2em;
+    margin-top: 0.15em;
+}
+
+.fileManage_Folder_Item_Name{
+    width: 100%;
+    height: 100%;
+}
+
+.fileManage_Folder_Item_Name div{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.fileManage_Folder_Item_Input{
+    border-bottom: solid .1px #ddd;
+    margin: .8em 0;
+}
+
+.fileManage_Folder_Item_Input .ant-input-group-addon{
+    padding: 0 0.6em;
+    cursor: pointer;
+    font-size: .7em;
+    border: 0;
+    background-color: #fff;
+    color: #777;
+}
+
+.copy_Button{
+    border: 0;
+    background-color: #fff;
+}
+
+.copy_Button .anticon{
+    margin: 0;
+}
+
+.confirm_Button{
+    color: #02C874;
+    animation: wiggle 2s linear infinite;
+}
+
+.confirm_Button:hover{
+    color: #02F78E;
+}
+
+.cancel_Button{
+    color: #FF0000;
+    margin-left: .5em;
+}
+
+.cancel_Button:hover{
+    color: #FF5151;
+}
+
+
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg) scale(1.8);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg) ;
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+.fileManager_Content__Search{
+    position: relative;
+    width: 30%;
+    border: none;
+    border-bottom: #ccc solid .1em;
+    margin-bottom: .5em;
+}
+
+.fileManager_Content__Search:hover{
+    border-bottom: #888 solid .1em;
+}
+
+.fileManager_Response__Top{
+    margin:4%;
+}
+
+.fileManager_Response__Top__Dropdown{
+    position: relative;
+    width: 42%;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+.fileManager_Response__Top__Search{
+    position: relative;
+    width: 44%;
+}
+
+.fileManager_Response__Content{
+    background-color: white;
+    margin: 1em;
+    margin-top: 0;
+    overflow-y: auto;
+}

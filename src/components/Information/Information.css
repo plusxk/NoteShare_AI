@@ -1,0 +1,82 @@
+.information__top{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 1em;
+}
+
+.information__School, .information__Department, .information__Subject, .information__Instructor, .information__Likes, .information__Favorite, .information__Unlock{
+    padding-right: 4%;
+    width: auto;
+    display: inline-block;
+}
+
+
+.information__top__right{
+    float: right;
+}
+
+.information__top__below{
+    margin-top: 1em;
+    height: 3em;
+}
+
+.information__bottom{
+    position: relative;
+    width: 100%;
+    height: 2em;
+}
+
+
+.information__bottom__Col{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.information__RefPrice , .information__Price, .information__Downloadable, .information__NotePublic{
+    text-align: right;
+}
+
+@media (max-width:768px) {
+    .information__Downloadable__below{
+        float: left;
+        height: 100%;
+        width: 10em;
+    }
+    .information__NotePublic__below, .information__Price__below, .information__RefPrice__below{
+        float: left;
+        height: 100%;
+        width: 6em;
+    }
+
+}
+
+@media (max-width:500px) {
+    .information__Downloadable__below{
+        width: 100%;
+        margin-top: .8em;
+        margin-bottom: .8em;
+    }
+    .information__School, .information__Department, .information__Subject, .information__Instructor, .information__Likes, .information__Favorite, .information__Unlock{
+        width: 50%;
+        display: block;
+        float: left;
+    }
+
+    .information__NotePublic__below, .information__Price__below, .information__RefPrice__below{
+        margin-bottom: .8em;
+        width: 50%;
+    }
+
+    .information__bottom__Col{
+        position: relative;
+        width: 100%;
+    }
+    .information__bottom__Col div{
+        position: relative;
+        width: 33%;
+    }
+
+}

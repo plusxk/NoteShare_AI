@@ -1,0 +1,106 @@
+{
+    "id": "62627205a942b76c5114dbf8",
+    "type": "Reward",
+    "email": [
+        "00853129@email.ntou.edu.tw"
+    ],
+    "school": "國立臺灣海洋大學",
+    "author": "Yao",
+    "department": "資訊工程學系",
+    "subject": "機器學習",
+    "professor": "鄭錫齊",
+    "title": "機器學習筆記",
+    "content": "機器學習到底在教啥，第一堂睡著後之後沒在聽過課了，有沒有整套筆記讓我補補，還有好幾個作業和限時兩周的個人專題要交欸哭",
+    "date": "2022-03-06T14:53:08.137+00:00",
+    "bestPrice": 100,
+    "referencePrice": 50,
+    "referenceNumber": 2,
+    "comments": [
+        {
+            "id": {
+                "timestamp": 1650618885,
+                "date": "2022-04-22T09:14:45.000+00:00"
+            },
+            "author": "Ting",
+            "email": "00853129@email.ntou.edu.tw",
+            "content": "豪棒",
+            "likeCount": 0,
+            "liker": [],
+            "referenceNotesURL": [],
+            "floor": 0,
+            "date": "2022-03-06T14:53:08.137+00:00",
+            "reference": false,
+            "best": false
+        },
+        {
+            "id": {
+                "timestamp": 1650618885,
+                "date": "2022-05-22T09:14:45.000+00:00"
+            },
+            "author": "Plusx",
+            "email": "00853129@email.ntou.edu.tw",
+            "content": "@Ting 棒啥",
+            "likeCount": 0,
+            "liker": [],
+            "referenceNotesURL": [],
+            "floor": 1,
+            "date": "2022-03-08T14:53:08.137+00:00",
+            "reference": false,
+            "best": false
+        },
+        {
+            "id": {
+                "timestamp": 1650618885,
+                "date": "2022-05-23T09:14:45.000+00:00"
+            },
+            "author": "路人甲",
+            "email": "00853129@email.ntou.edu.tw",
+            "content": "笑死 努估誰優",
+            "likeCount": 0,
+            "liker": [],
+            "referenceNotesURL": [],
+            "floor": 3,
+            "date": "2022-03-10T14:53:08.137+00:00",
+            "reference": false,
+            "best": false
+        },
+        {
+            "id": {
+                "timestamp": 1650618885,
+                "date": "2022-05-24T09:14:45.000+00:00"
+            },
+            "author": "路人乙",
+            "email": "00853129@email.ntou.edu.tw",
+            "content": "@路人甲 西八老媽",
+            "likeCount": 0,
+            "liker": [],
+            "referenceNotesURL": [],
+            "floor": 4,
+            "date": "2022-03-12T14:53:08.137+00:00",
+            "reference": false,
+            "best": false
+        },
+        {
+            "id": {
+                "timestamp": 1650618885,
+                "date": "2022-05-24T09:14:45.000+00:00"
+            },
+            "author": "酸民",
+            "email": "00853129@email.ntou.edu.tw",
+            "content": "抽了四包菸，心臟好痛",
+            "likeCount": 0,
+            "liker": [],
+            "referenceNotesURL": [],
+            "floor": 4,
+            "date": "2022-03-12T14:53:08.137+00:00",
+            "reference": false,
+            "best": false
+        }
+    ],
+    "answers": [
+        "6262b61b3beec065d67999d0",
+        "6262b61b3beec065d67999d1"
+    ],
+    "wantEnterUsersEmail": null,
+    "public": false
+}

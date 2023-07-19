@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+.navMenu{
+    position: relative;
+    width: 6em;
+    height: 100%;
+    background-color: #ffffff;
+    font-weight: bolder;
+    margin-left: 2vw;
+}
+
+.navMenu .navMenu__Dropdown{
+    width: 100%;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .navMenu{
+        position: relative;
+        height: 100%;
+        font-weight: bolder;
+        margin: 0;
+    }
+    .navMenu .navMenu__Dropdown{
+        border: none;
+        top: 0;
+        transform: none;
+    }
+}
+
+#navMenu #Menu{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    width: 160px;
+    color:black;
+    border-style: none;
+    background-color: white;
+    margin-right: 5%;
+}
+
+

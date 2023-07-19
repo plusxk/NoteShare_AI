@@ -1,0 +1,141 @@
+#OPInfo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#OPInfo__Row__Content{
+    height: 100%;
+}
+
+.OPInfo__left__Content{
+    margin-right: 1em;
+    height: 100%;
+}
+
+#OPInfo__right__Content{
+    float: left;
+    height: 100%;
+}
+
+.OPInfo__Row__Comment{
+    position: relative;
+    height: 100%;
+}
+
+.OPInfo__left__Comment{
+    position: relative;
+    margin-right: 0.8em;
+    margin-top: 0.1em;
+}
+#OPInfo__right__Comment{
+    position: relative;
+    float: left;
+    height: 90%;
+   
+}
+#OPInfo__Author__Comment{
+    padding-bottom: 0;
+    position: relative;
+    height: 40%;
+    margin-bottom: 0.3em;
+}
+#OPInfo__Date__Comment{
+    position: relative;
+    height: 40%;
+}
+
+.OPInfo__Row__Outline{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+.OPInfo__left__Outline{
+    margin-right: 1em;
+    height: 100%;
+    margin-left: 2em;
+    
+}
+}
+@media screen and (min-width: 0px)and (max-width: 768px){
+    .OPInfo__left__Outline{
+        margin-right: 1em;
+        height: 100%;
+        margin-left: 1em;
+        
+    }
+    }
+.OPInfo__right__Outline{
+    float: left;
+    height: 100%;
+    word-wrap: break-all;
+}
+.OPInfo__Author__Outline{
+    margin-top: 0.5em;
+    position: relative;
+    height: 30%;
+    margin-bottom: 0;
+}
+.OPInfo__Date__Outline{
+    position: relative;
+    height: 40%;
+}
+.OPInfo__Row__Profile{
+    height: 100%;
+    width: 100%;
+}
+.OPInfo__left__Profile{
+    margin-right: 1em;
+    height: 100%;
+    margin-left: 2em;
+    
+}
+
+.OPInfo__right__Profile{
+    float: left;
+    height: 100%;
+}
+.OPInfo__Author__Profile{
+    margin-top: 0.5em;
+    position: relative;
+    height: 30%;
+    margin-bottom: 0;
+}
+.OPInfo__Date__Profile{
+    position: relative;
+    height: 40%;
+}
+
+.OPInfo__Row__FolderOutline{
+    height: 100%;
+    width: 100%;
+}
+.OPInfo__left__FolderOutline{
+    margin-right: 1em;
+    height: 100%;
+    margin-left: 2em;
+    
+}
+
+.OPInfo__right__FolderOutline{
+    float: left;
+    height: 100%;
+}
+.OPInfo__Author__FolderOutline{
+    margin-top: 0.8em;
+    position: relative;
+    height: 30%;
+    margin-bottom: 0;
+}
+.OPInfo__Date__FolderOutline{
+    position: relative;
+    height: 40%;
+}
+.ant-popover-inner{
+    padding: .5em;
+}
+
+.OPInfo__Avatar{
+    cursor: pointer;
+}
